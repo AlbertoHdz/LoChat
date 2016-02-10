@@ -1,0 +1,107 @@
+.titHeader{
+	padding: 0 auto;
+	text-align: center;
+	font-family: Verdana;
+	font-weight: 100;
+	font-style: oblique;
+	font-size: 14px;
+}
+ 
+#content{
+	width: auto;
+	height: 260px;		
+	float: left;
+	clear: both;	
+}
+ 
+.btnPer{
+	width: auto;
+	font-size: 16px;	
+	border-radius: 10px;
+	-moz-transition: all 0.9s;
+  	-webkit-transition: all 0.9s;
+  	-o-transition: all 0.9s;
+  	transition: all 0.9s;
+}
+ 
+.btnPer:hover{
+	background-color: #D2CDCC;
+}
+ 
+#capRes{
+	visibility: hidden;	
+}
+ 
+input:not([type]), input[type="text"]{
+ 
+	border-radius: 5px;
+	text-align: right;	
+}
+
+button,input[type=submit]{
+	padding: 10px;
+	border-radius: 7px;
+}
+ 
+.divL{
+	margin: 15px 0 20px 0;
+}
+ 
+.contenedor{
+	position:absolute;             /* position in the center of the screen */
+    left:35%;
+    top:10%;
+    height:77%;                   /* text area height */
+    width:100%;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    margin-top: -48%;                               /* offset horizontal: half of text area width */
+}
+
+.mios{
+	width:100%;
+	height: auto;
+	border-radius: 8px;
+	background: rgba(127,87,98,0.6);
+	padding: 10px;
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+	.contenedor{
+		 background-position:left center;
+		left:50%;
+        padding: 95px 0px 75px 0px;
+    	margin: -90px 0px 0px -240px; /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+	}
+}
+
+
+#AreaMsgs{
+	width: 100%;
+	height: 90%;
+	background: rgba(123,231,78,0.7);
+}
+
+#message{
+	font-weight: bold;
+    background: black;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+#btnRes{
+	width: auto;
+	color: #3200DC;	
+	font-size: 16px;	
+	border-radius: 10px;
+	font-weight: bold;
+}
+ 
+#btnRes:hover{
+	background-color: #D2CDCC;
+}
